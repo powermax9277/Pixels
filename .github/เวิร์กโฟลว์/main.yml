@@ -1,0 +1,16 @@
+<source src="http://cdn.fluidplayer.com/current/examples/video.mp4" title="720p" type="video/mp4">
+<source src="http://cdn.fluidplayer.com/current/examples/video360.mp4" title="360p" type="video/mp4">
+
+<video id="video-autoplay" controls style="width:100%">
+    <source src="http://cdn.fluidplayer.com/current/examples/video.mp4" title="720p" type="video/mp4">
+</video>
+
+<script>
+    var video = fluidPlayer(
+        'video-autoplay',
+        '',
+        {
+            autoPlay: true
+        }
+    );
+</script>
